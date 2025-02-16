@@ -1,0 +1,140 @@
+    html, body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 15px; 
+    }
+
+  .poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+    main {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      /* border: 2px solid black; */
+      width: 320px;
+    }
+
+    header {
+      /* border: 2px solid black; */
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 95%;
+      
+    }
+
+    header p {
+      max-width: max-content;
+      font-size: 1rem;
+      text-align: center;
+      /* border: 2px solid black; */
+    }
+
+    header h1 {
+      text-align: center;
+      /* border: 2px solid black; */
+      font-size: 1.5rem;
+      margin-bottom: 0px;
+      max-width: max-content;
+    }
+
+    .card-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .card {
+      width: 80%;
+      height: 200px;
+      padding: 10px;
+      /* border: 0px solid black; */
+      background-color: white;
+      margin-bottom: 20px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+      position: relative;
+      border-radius: 10px;
+    }
+
+    .card-img {
+      position: absolute;
+      right: 10px;
+    }
+
+    .card-image1 {
+      border-top: 4px solid hsl(180, 62%, 55%);
+    }
+
+    .card-image2 {
+      border-top: 4px solid hsl(0, 78%, 62%)
+    }
+
+    .card-image3 {
+      border-top: 4px solid hsl(34, 97%, 64%)
+    }
+
+    .card-image4 {
+      border-top: 4px solid hsl(212, 86%, 64%)
+    }
+
+    .desktop-class {
+      /* border: 2px solid black; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media (min-width: 650px) {
+      main {
+        min-width: 100vw;
+        min-height: 100vh;
+        /* border: 2px solid black; */
+        /* background-color: black; */
+      }
+      header {
+        /* border: 2px solid black; */
+        max-width: 30%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+     
+      .card-section {
+        padding: 20px;
+        display: flex;
+        /* border: 2px solid black; */
+        flex-direction: row;
+        height: 500px;
+        width: 60%; 
+        column-gap: 0px;
+       
+        
+      }
+
+      .desktop-class {
+        /* border: 2px solid black; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
